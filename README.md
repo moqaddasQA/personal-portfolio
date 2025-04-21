@@ -1,15 +1,39 @@
-# 🛠️ Maven-Based BDD Automation Framework
+# QA Automation Portfolio - Moqaddas Rahim 🚀
 
-Welcome to my **QA Automation Portfolio**! This collection showcases a range of projects demonstrating my skills in test automation, utilizing various tools and technologies to ensure software quality across different testing domains.
+Welcome to my **QA Automation Portfolio**! This curated collection showcases my skills and experience in test automation, utilizing a variety of tools and technologies to ensure software quality across different testing domains. Explore my projects and see how I approach automation challenges.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Moqaddas%20Rahim-blue?logo=linkedin)](https://www.linkedin.com/in/moqaddas-qa-automation)
+[![GitHub](https://img.shields.io/badge/GitHub-moqaddasQA-lightgrey?logo=github)](https://github.com/moqaddasQA)
+
+## 📑 Table of Contents
+
+*   [Project Summary](#project-summary)
+*   [Portfolio Project Descriptions](#portfolio-project-descriptions)
+    *   [1. Maven-Based BDD Automation Framework](#1-maven-based-bdd-automation-framework)
+    *   [2. API Testing Suite](#2-api-testing-suite)
+    *   [3. SOAP API Testing Project](#3-soap-api-testing-project)
+    *   [4. Data-Driven Testing with SQL and TestNG](#4-data-driven-testing-with-sql-and-testng)
+    *   [5. Jenkins CI/CD Integration](#5-jenkins-cicd-integration)
+    *   [6. Version Control and Agile Tools Demo](#6-version-control-and-agile-tools-demo)
+    *   [7. Selenium IDE Demo Project](#7-selenium-ide-demo-project)
+    *   [8. WebdriverIO BDD Project](#8-webdriverio-bdd-project)
+
+---
 
 ## Project Summary
-This portfolio showcases a collection of QA automation projects, each designed to demonstrate various testing methodologies and tools. From BDD frameworks to API testing, data-driven testing, CI/CD integration, and performance testing, these projects highlight my skills and experience in ensuring software quality.
+This portfolio includes a variety of QA automation projects, each designed to demonstrate different testing methodologies and tools. From BDD frameworks to API testing, data-driven testing, CI/CD integration, and more, these projects highlight my skills and experience in ensuring software quality.
+
+---
 
 ## 🚀 Portfolio Project Descriptions
 
-### 1. Maven-Based BDD Automation Framework
 
-**Project Summary**: This project is a robust, scalable, and maintainable test automation framework designed to test the [OpenCart Demo Website](https://demo.opencart.com/). It leverages **Selenium WebDriver**, **Cucumber**, and **JUnit**, following best practices like the **Page Object Model (POM)** and **Behavior-Driven Development (BDD)**.
+### 1. Maven-Based BDD Automation Framework
+[![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)](https://www.oracle.com/java/)
+[![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)](https://www.selenium.dev/)
+[![Cucumber](https://img.shields.io/badge/Cucumber-17A77B?style=for-the-badge&logo=cucumber&logoColor=white)](https://cucumber.io/)
+
+**Project Summary:** This project is a robust, scalable, and maintainable test automation framework designed to test the [OpenCart Demo Website](https://demo.opencart.com/). It leverages **Selenium WebDriver**, **Cucumber**, and **JUnit**, following best practices like the **Page Object Model (POM)** and **Behavior-Driven Development (BDD)**.
 
 - **Features**:
 
@@ -25,12 +49,16 @@ This portfolio showcases a collection of QA automation projects, each designed t
   - Generates HTML and JSON reports for test results.
 - **Reusable Utilities**: 
   - Includes utilities for configuration management, WebDriver initialization, and wait strategies.
+- **Cross-browser Testing**:
+  - Supports testing on Chrome and Firefox browsers.
+- **CI/CD Integration**:
+  - Integrated with Jenkins for continuous testing and deployment.
 
 ---
 
 ## 🛠️ Tools & Technologies
 
-| **Tool/Technology** | **Purpose**                          |
+| **Tool/Technology** | **Purpose**                                         |
 |----------------------|---------------------------------------|
 | Selenium WebDriver   | Browser automation                   |
 | Cucumber             | BDD framework for writing tests      |
@@ -41,6 +69,8 @@ This portfolio showcases a collection of QA automation projects, each designed t
 | Java                 | Programming Language                 |
 | Gherkin              | Language for BDD scenarios           |
 | Page Object Model    | Design pattern for UI testing        |
+
+[![Maven Based BDD Automation Framework](https://github.com/moqaddasQA/Maven-Based-BDD-Automation-Framework/blob/main/ScreenShots/Cucumber_Report.png?raw=true)](https://github.com/moqaddasQA/bdd-automation-framework)
 
 ---
 
@@ -61,40 +91,20 @@ src
 
 ---
 
-## 🧑‍💻 Author
+## ⚙️ Setup Instructions
 
-- **Full Name**: Moqaddas Rahim
-- **Role**: QA Automation Engineer
-- **Location**: Los Angeles, California, USA
-- **Email**: rahim.ms001@gmail.com
-- **LinkedIn**: [www.linkedin.com/in/moqaddas-qa-automation](www.linkedin.com/in/moqaddas-qa-automation)
-- **GitHub**: [https://github.com/moqaddasQA](https://github.com/moqaddasQA)
+Follow these steps to set up and run the project:
 
+### Prerequisites
 
+*   Ensure you have **Java 11** or higher installed.
+*   Install **Maven** for dependency management and building the project.
+*   Download and install **ChromeDriver** and/or **GeckoDriver** for browser automation with Chrome and Firefox, respectively.
+*   (Optional) Install **Jenkins** if you wish to integrate the framework with a CI/CD pipeline.
 
-🛠️ Setup Instructions
-Prerequisites
-	1. Install Java 11 or higher.
-	2. Install Maven.
-	3. Install ChromeDriver and/or GeckoDriver (Firefox).
-	4. Install Jenkins (optional, for CI/CD).
+### 1. Clone the Repository
 
 
-Clone the Repository
-git clone https://github.com/your-repo/bdd-automation-framework.git
-cd bdd-automation-framework
-
-
-Install Dependencies
-mvn clean install
-
-
-Update Configuration
-Edit the config.properties file in src/main/resources:
-
-browser=chrome
-baseUrl=https://demo.opencart.com/
-timeout=10
 
 ----
 
