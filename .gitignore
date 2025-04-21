@@ -1,0 +1,31 @@
+# Maven target directory (build artifacts)
+target/
+
+# IntelliJ IDEA project files
+*.iml
+.idea/
+
+# Eclipse project files
+*.classpath
+*.project
+*.settings/
+
+# VS Code workspace files
+.vscode/
+
+# Logs
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Driver executables
+src/main/resources/drivers/*.exe
+
+# Config files (optional, if sensitive data is stored)
+config.properties
+
+# Reports
+cucumber-reports.html
+cucumber-reports.json
