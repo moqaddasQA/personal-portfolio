@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1 Details</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="project-details">
+            <h1>Project 1: Maven-Based BDD Automation Framework</h1>
+            <p>
+                This project is a comprehensive Behavior-Driven Development (BDD) automation framework built using Maven, Java, Selenium WebDriver, and Cucumber. It targets the OpenCart demo website (https://demo.opencart.com/) and follows best practices like the Page Object Model (POM) and object-oriented programming (OOP) principles.
+            </p>
+
+            <h2>Key Features</h2>
+            <ul>
+                <li>
+                    <strong>Behavior-Driven Development (BDD)</strong>: Test scenarios are written in plain English using Gherkin syntax, making them understandable to both technical and non-technical stakeholders.
+                </li>
+                <li>
+                    <strong>Page Object Model (POM)</strong>: The framework uses the POM design pattern to encapsulate UI elements and actions, improving code maintainability and reusability.
+                </li>
+                <li>
+                    <strong>Cross-Browser Testing</strong>: Supports running tests on multiple browsers (Chrome and Firefox) by configuring the `config.properties` file.
+                </li>
+                <li>
+                    <strong>Continuous Integration/Continuous Delivery (CI/CD) Ready</strong>: Includes a `Jenkinsfile` for seamless integration with Jenkins pipelines, enabling automated test execution as part of the CI/CD process.
+                </li>
+                <li>
+                    <strong>Detailed Reporting</strong>: Generates HTML and JSON reports to provide clear and detailed test results.
+                </li>
+                <li>
+                    <strong>Reusable Utilities</strong>: Includes utility classes for configuration management, WebDriver initialization, and various wait strategies.
+                </li>
+                <li>
+                    <strong>Object-Oriented Programming (OOP)</strong>: Implements OOP principles like encapsulation, inheritance, polymorphism, and abstraction to enhance the framework's robustness and scalability.
+                </li>
+            </ul>
+
+            <h2>Technologies Used</h2>
+            <ul>
+                <li><strong>Java</strong>: Core programming language.</li>
+                <li><strong>Maven</strong>: Build and dependency management.</li>
+                <li><strong>Selenium WebDriver</strong>: Browser automation.</li>
+                <li><strong>Cucumber</strong>: BDD framework for writing tests.</li>
+                <li><strong>JUnit</strong>: Test execution.</li>
+                <li><strong>Jenkins</strong>: CI/CD integration.</li>
+            </ul>
+            <h2>Project Structure</h2>
+            <ul>
+                <li>
+                    <strong>src/main/java/com/example/</strong>: Contains the Page classes (e.g., HomePage, LoginPage) and utility classes.
+                    </li>
+                    <li>
+                        <strong>src/test/java/com/example/</strong>: Contains the feature files, step definitions, and runners.
+                    </li>
+                </ul>
+            <h2>Setup Instructions</h2>
+            <ol>
+                <li>Install Java 11 or higher.</li>
+                <li>Install Maven.</li>
+                <li>Install ChromeDriver and/or GeckoDriver (Firefox).</li>
+                <li>Install Jenkins (optional, for CI/CD).</li>
+                <li>Clone the repository: git clone https://github.com/your-repo/bdd-automation-framework.git</li>
+                <li>Navigate to the project directory: cd bdd-automation-framework</li>
+                <li>Install dependencies: mvn clean install</li>
+                <li>Update Configuration: Edit the config.properties file in src/main/resources.</li>
+            </ol>
+            <h2>Running Tests</h2>
+            <ul>
+                <li>Run all tests: mvn test</li>
+                <li>Run tests with specific tags: mvn test -Dcucumber.filter.tags="@SmokeTest"</li>
+            </ul>
+
+            <h2>View Reports</h2>
+            <ul>
+                <li>After running the tests, view the HTML report at: target/cucumber-reports.html</li>
+            </ul>
+            <a href="../index.html" class="back-button">Back to Home</a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Moqaddas Rahim. All rights reserved.</p>
+    </footer>
+</body>
+</html>

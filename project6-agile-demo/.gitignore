@@ -1,0 +1,15 @@
+gitignore
+# Ignore common files and directories
+*.log
+*.tmp
+*.bak
+*.swp
+._*
+.DS_Store
+/node_modules
+/target
+.idea/
+*.iml
+
+# OS generated files
+Thumbs.db

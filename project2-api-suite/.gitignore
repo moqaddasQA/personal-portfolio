@@ -1,0 +1,14 @@
+# Java-specific ignores
+*.class
+# Package Files #
+*.jar
+*.war
+*.ear
+# Maven-specific ignores
+target/
+.mvn/
+# Test report
+surefire-reports/
+# IDE files
+.idea/
+*.iml

@@ -1,0 +1,68 @@
+{
+  "id": "5b534927-011e-4f27-8449-7a9151f4e524",
+  "version": "2.0",
+  "name": "OpenCartDemo",
+  "url": "https://demo.opencart.com",
+  "tests": [{
+    "id": "8685a892-2239-491d-b097-9125153d6a95",
+    "name": "OpenCartTest",
+    "commands": [{
+      "id": "d4b85a9c-945c-4f11-8f71-4a9c9e1d9d37",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "985e5c38-33b1-41e8-97f8-e9c1310d604e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1211x801",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b26d8c04-e029-4407-b2f5-c3338d1d703f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Desktops",
+      "targets": [
+        ["linkText=Desktops", "linkText"],
+        ["xpath=//div[@id='narbar-menu']/ul/li[1]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://demo.opencart.com/index.php?route=product/category&language=en-gb&path=20')][contains(., 'Desktops')][count(preceding-sibling::*)=0]", "xpath:href"],
+        ["xpath=//a[contains(., 'Desktops')]", "xpath:innerText"],
+        ["xpath=//div[1]/ul/li[1]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "083c5575-f621-4295-ac3f-813d092f46d6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Show All Desktops",
+      "targets": [
+        ["linkText=Show All Desktops", "linkText"],
+        ["xpath=//div[@id='narbar-menu']/ul/li/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://demo.opencart.com/index.php?route=product/category&language=en-gb&path=20')][contains(., 'Show All Desktops')][count(preceding-sibling::*)=0]", "xpath:href"],
+        ["xpath=//a[contains(., 'Show All Desktops')]", "xpath:innerText"],
+        ["xpath=//div[1]/ul/li[1]/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "21b85475-189b-4464-a517-6e25fd991b4a",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Desktops",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e3f97959-ab0f-4b70-be0f-ff6926244843",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["8685a892-2239-491d-b097-9125153d6a95"]
+  }],
+  "urls": ["https://demo.opencart.com/"],
+  "plugins": []
+}

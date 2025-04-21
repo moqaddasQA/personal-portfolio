@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 5: Jenkins CI/CD Integration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="project-details">
+            <h1>Project 5: Jenkins CI/CD Integration</h1>
+            <p>
+                This project demonstrates how to integrate automated tests with Jenkins for Continuous Integration and Continuous Delivery (CI/CD). 
+                It showcases the creation of a Jenkins pipeline that builds the project, runs the tests, and publishes the test reports. 
+                The project includes a sample Jenkinsfile and instructions for setting up a GitHub webhook to trigger builds automatically.
+            </p>
+
+            <h2>Key Features</h2>
+            <ul>
+                <li><strong>Jenkins Pipeline:</strong> Defines a CI/CD pipeline using a <code>Jenkinsfile</code>.</li>
+                <li><strong>Automated Builds:</strong> Automates the build process using Maven.</li>
+                <li><strong>Automated Testing:</strong> Integrates automated tests written with TestNG.</li>
+                <li><strong>Test Reporting:</strong> Publishes TestNG reports to Jenkins for easy access.</li>
+                <li><strong>GitHub Integration:</strong> Triggers builds automatically on code push events via a GitHub webhook.</li>
+            </ul>
+
+            <h2>Technologies Used</h2>
+            <ul>
+                <li>Jenkins</li>
+                <li>Maven</li>
+                <li>Git</li>
+                <li>GitHub</li>
+                <li>TestNG</li>
+            </ul>
+
+            <h2>Workflow</h2>
+            <p>
+                The workflow for this project includes:
+            </p>
+            <ul>
+                <li><strong>Code Commit:</strong> A developer commits code to a GitHub repository.</li>
+                <li><strong>Trigger Build:</strong> A GitHub webhook notifies Jenkins of the commit.</li>
+                <li><strong>Checkout Code:</strong> Jenkins checks out the code from the repository.</li>
+                <li><strong>Build and Test:</strong> Jenkins builds the project and runs the automated tests using Maven.</li>
+                 <li><strong>Report Results:</strong> Jenkins report the test results.</li>
+            </ul>
+               <h2>Jenkinsfile</h2>
+            <p> The Jenkins file is used to implement the different stages of the process</p>
+
+            <h2>Conclusion</h2>
+             <p> This project is a great example of how we can use Jenkins to have a successful CI/CD process</p>
+            
+            
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Moqaddas Rahim. All rights reserved.</p>
+    </footer>
+</body>
+</html>

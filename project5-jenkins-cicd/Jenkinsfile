@@ -1,0 +1,23 @@
+pipeline {
+    agent any
+    stages {
+        stage('Clean') {
+            agent any
+            steps {
+                sh 'mvn clean'
+            }
+        }
+        stage('Test') {
+            agent any
+            steps {
+                sh 'mvn test'
+            }
+        }
+        stage('Report') {
+            agent any
+            steps {
+                archiveArtifacts artifacts: 'target/surefire-reports/*.xml', allowEmptyArchive: true
+            }
+        }
+    }
+}

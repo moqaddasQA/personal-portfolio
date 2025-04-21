@@ -1,0 +1,6 @@
+IssueID | Summary | Description | Status
+ISSUE-1 | Login Page Broken | The login page is not loading | Open
+ISSUE-2 | Product Search | Users cannot search for products | In Progress
+ISSUE-3 | Checkout Error | Users are unable to complete checkout | Closed
+ISSUE-4 | Header | Header link are broken | Open
+ISSUE-5 | Footer | Footer is not displayed | In Progress

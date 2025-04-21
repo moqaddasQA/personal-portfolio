@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 4: Data-Driven Testing with SQL and TestNG</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="project-details">
+            <h1>Project 4: Data-Driven Testing with SQL and TestNG</h1>
+            <p>
+                This project demonstrates how to perform data-driven testing by fetching test data from a MySQL database.
+                 It uses TestNG to execute the tests and JDBC to interact with the database.
+                  The project emphasizes validating data integrity and showcasing how to integrate a database with automated tests.
+            </p>
+
+            <h2>Key Features</h2>
+            <ul>
+                <li><strong>Database Integration:</strong> Connects to a MySQL database to retrieve test data.</li>
+                <li><strong>Data-Driven Testing:</strong> Uses TestNG's <code>@DataProvider</code> to supply test data from the database to test methods.</li>
+                <li><strong>Data Validation:</strong> Implements test cases that validate the integrity of the data fetched from the database.</li>
+                <li><strong>Clear SQL Queries:</strong> Includes well-structured SQL queries for data retrieval and validation.</li>
+                <li><strong>Comprehensive Reporting:</strong> Leverages TestNG's reporting features to provide detailed test execution reports.</li>
+            </ul>
+
+            <h2>Tools and Technologies</h2>
+            <ul>
+                <li><strong>TestNG:</strong> Test execution and reporting.</li>
+                <li><strong>MySQL:</strong> Database used for storing and retrieving test data.</li>
+                <li><strong>JDBC:</strong> Java API for database connectivity.</li>
+                <li><strong>Maven:</strong> Build and dependency management.</li>
+            </ul>
+
+            <h2>Test Cases</h2>
+            <ul>
+                <li><strong><code>testProductCount</code>:</strong> Verifies the number of products in the table.</li>
+                <li><strong><code>testProductDataIntegrity</code>:</strong> Fetches all product data and checks for data integrity (e.g., price > 0).</li>
+                 <li><strong><code>testAddProduct</code>:</strong> adds a new product into the table.</li>
+                 <li><strong><code>testUpdateProduct</code>:</strong> updates the data of a product.</li>
+                <li><strong><code>testDeleteProduct</code>:</strong> delete a product from the table.</li>
+            </ul>
+
+            <h2>Data Validation</h2>
+            <ul>
+                <li><strong>Non-Null Checks:</strong> Ensures that data fields are not null.</li>
+                <li><strong>Price Validation:</strong> Verifies that product prices are greater than zero.</li>
+            </ul>
+            
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Moqaddas Rahim. All rights reserved.</p>
+    </footer>
+</body>
+</html>

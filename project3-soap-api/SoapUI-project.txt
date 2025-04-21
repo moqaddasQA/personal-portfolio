@@ -1,0 +1,122 @@
+# SoapUI Project (Calculator Web Service)
+
+## Web Service Endpoint
+
+-   WSDL URL: http://www.dneonline.com/calculator.asmx?wsdl
+
+## Test Suite: CalculatorTestSuite
+
+### Test Cases
+
+1.  AddTest
+    -   Request:
+```
+xml
+        <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://tempuri.org/">
+           <soapenv:Header/>
+           <soapenv:Body>
+              <web:Add>
+                 <web:intA>5</web:intA>
+                 <web:intB>3</web:intB>
+              </web:Add>
+           </soapenv:Body>
+        </soapenv:Envelope>
+        
+```
+-   Assertions:
+        -   Check for valid response.
+        -   Verify that the response contains the expected result.
+```
+xml
+            <AddResult>8</AddResult>
+            
+```
+2.  SubtractTest
+    -   Request:
+```
+xml
+        <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://tempuri.org/">
+           <soapenv:Header/>
+           <soapenv:Body>
+              <web:Subtract>
+                 <web:intA>10</web:intA>
+                 <web:intB>4</web:intB>
+              </web:Subtract>
+           </soapenv:Body>
+        </soapenv:Envelope>
+        
+```
+-   Assertions:
+        -   Check for valid response.
+        -   Verify that the response contains the expected result.
+```
+xml
+            <SubtractResult>6</SubtractResult>
+            
+```
+3.  MultiplyTest
+    -   Request:
+```
+xml
+        <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://tempuri.org/">
+           <soapenv:Header/>
+           <soapenv:Body>
+              <web:Multiply>
+                 <web:intA>6</web:intA>
+                 <web:intB>7</web:intB>
+              </web:Multiply>
+           </soapenv:Body>
+        </soapenv:Envelope>
+        
+```
+-   Assertions:
+        -   Check for valid response.
+        -   Verify that the response contains the expected result.
+```
+xml
+            <MultiplyResult>42</MultiplyResult>
+            
+```
+4.  DivideTest
+    -   Request:
+```
+xml
+        <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://tempuri.org/">
+           <soapenv:Header/>
+           <soapenv:Body>
+              <web:Divide>
+                 <web:intA>20</web:intA>
+                 <web:intB>4</web:intB>
+              </web:Divide>
+           </soapenv:Body>
+        </soapenv:Envelope>
+        
+```
+-   Assertions:
+        -   Check for valid response.
+        -   Verify that the response contains the expected result.
+```
+xml
+            <DivideResult>5</DivideResult>
+            
+```
+5. Divide by zero
+    - Request:
+```
+xml
+        <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://tempuri.org/">
+           <soapenv:Header/>
+           <soapenv:Body>
+              <web:Divide>
+                 <web:intA>20</web:intA>
+                 <web:intB>0</web:intB>
+              </web:Divide>
+           </soapenv:Body>
+        </soapenv:Envelope>
+        
+```
+- Assertions:
+        - Verify that a Soap Fault is returned.
+
+
+## End of SoapUI Project

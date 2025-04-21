@@ -1,0 +1,15 @@
+gitignore
+# Maven
+target/
+.mvn/
+**/target/
+
+# Intellij
+.idea/
+*.iml
+
+# Jenkins
+.jenkins/
+
+# System Files
+.DS_Store

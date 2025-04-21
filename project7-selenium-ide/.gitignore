@@ -1,0 +1,7 @@
+gitignore
+# Selenium IDE temporary files
+*.tmp
+*.log
+
+# Ignore Selenium IDE backups
+._*

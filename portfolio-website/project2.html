@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2: API Testing Suite</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="project-details">
+        <h2>Project 2: API Testing Suite</h2>
+        <p>
+            This project is designed to demonstrate API testing skills using a variety of tools and technologies. 
+            It focuses on creating a robust suite of automated tests for a RESTful API, ensuring the reliability 
+            and functionality of its endpoints. The project emphasizes best practices such as data-driven testing 
+            and continuous integration.
+        </p>
+
+        <h3>Key Features</h3>
+        <ul>
+            <li><strong>Comprehensive API Testing:</strong> Automates tests for a variety of API endpoints, covering essential HTTP methods (GET, POST, PUT, DELETE).</li>
+            <li><strong>Data-Driven Testing:</strong> Uses external data sources to feed test data, allowing for a wide range of scenarios to be tested.</li>
+            <li><strong>Reliability Focus:</strong> Includes test cases that ensure API reliability, such as checking response times and validating status codes.</li>
+            <li><strong>CI/CD Integration:</strong> Contains a <code>Jenkinsfile</code> for seamless integration with Jenkins pipelines.</li>
+            <li><strong>Detailed Reporting:</strong> Generates detailed test reports to help understand test results.</li>
+            <li><strong>Error Handling:</strong> Implements robust error handling to identify issues in both the API and the test suite.</li>
+        </ul>
+
+        <h3>Tools & Technologies Used</h3>
+        <ul>
+            <li><strong>REST Assured:</strong> For writing and executing API tests.</li>
+            <li><strong>TestNG:</strong> For test execution and reporting.</li>
+            <li><strong>Jackson:</strong> For handling JSON data.</li>
+            <li><strong>Maven:</strong> For build and dependency management.</li>
+            <li><strong>Jenkins:</strong> For Continuous Integration/Continuous Delivery (CI/CD).</li>
+            <li><strong>SLF4j:</strong> For logging.</li>
+        </ul>
+
+        <h3>API Endpoints</h3>
+        <p>This project tests the following mock API endpoints:</p>
+        <ul>
+            <li><code>GET /api/products</code>: Retrieves a list of all products.</li>
+            <li><code>GET /api/products/{id}</code>: Retrieves a single product by ID.</li>
+            <li><code>POST /api/products</code>: Creates a new product.</li>
+            <li><code>PUT /api/products/{id}</code>: Updates an existing product.</li>
+            <li><code>DELETE /api/products/{id}</code>: Deletes a product.</li>
+        </ul>
+
+        <h3>Test Cases</h3>
+        <p>The test suite covers a wide range of scenarios, including:</p>
+        <ul>
+            <li><code>GET</code> requests: Verifies the ability to retrieve products.</li>
+            <li><code>POST</code> requests: Checks product creation.</li>
+            <li><code>PUT</code> requests: Ensures products can be updated.</li>
+            <li><code>DELETE</code> requests: Confirms product deletion.</li>
+            <li>Error Handling: Validates appropriate error responses for invalid requests.</li>
+            <li>Performance: Measures and validates response times.</li>
+        </ul>
+
+        <h3>Data-Driven Testing</h3>
+        <p>
+            The <code>TestData</code> class provides various data to the <code>ProductApiTest</code> class, 
+            including sample products and product IDs. Using TestNG's data provider to provide multiple 
+            sets of data for creating, updating, and deleting products.
+        </p>
+
+        <h3>Jenkins Integration</h3>
+        <p>
+            The project includes a <code>Jenkinsfile</code> for easy integration with Jenkins CI/CD. 
+            The <code>Jenkinsfile</code> includes steps to clean the project and run the tests.
+        </p>
+
+        <a href="index.html" class="back-button">Back to Home</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Moqaddas Rahim. All rights reserved.</p>
+    </footer>
+</body>
+</html>
