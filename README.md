@@ -1,11 +1,17 @@
-<<<<<<< HEAD
 # 🛠️ Maven-Based BDD Automation Framework
 
-Welcome to the **BDD Automation Framework**! This project is a robust, scalable, and maintainable test automation framework designed to test the [OpenCart Demo Website](https://demo.opencart.com/). It leverages **Selenium WebDriver**, **Cucumber**, and **JUnit**, following best practices like the **Page Object Model (POM)** and **Behavior-Driven Development (BDD)**.
+Welcome to my **QA Automation Portfolio**! This collection showcases a range of projects demonstrating my skills in test automation, utilizing various tools and technologies to ensure software quality across different testing domains.
 
----
+## Project Summary
+This portfolio showcases a collection of QA automation projects, each designed to demonstrate various testing methodologies and tools. From BDD frameworks to API testing, data-driven testing, CI/CD integration, and performance testing, these projects highlight my skills and experience in ensuring software quality.
 
-## 🚀 Features
+## 🚀 Portfolio Project Descriptions
+
+### 1. Maven-Based BDD Automation Framework
+
+**Project Summary**: This project is a robust, scalable, and maintainable test automation framework designed to test the [OpenCart Demo Website](https://demo.opencart.com/). It leverages **Selenium WebDriver**, **Cucumber**, and **JUnit**, following best practices like the **Page Object Model (POM)** and **Behavior-Driven Development (BDD)**.
+
+- **Features**:
 
 - **Behavior-Driven Development (BDD)**:
   - Write test scenarios in plain English using **Gherkin syntax**.
@@ -17,7 +23,7 @@ Welcome to the **BDD Automation Framework**! This project is a robust, scalable,
   - Includes a **Jenkinsfile** for seamless integration with Jenkins pipelines.
 - **Detailed Reporting**:
   - Generates HTML and JSON reports for test results.
-- **Reusable Utilities**:
+- **Reusable Utilities**: 
   - Includes utilities for configuration management, WebDriver initialization, and wait strategies.
 
 ---
@@ -25,30 +31,44 @@ Welcome to the **BDD Automation Framework**! This project is a robust, scalable,
 ## 🛠️ Tools & Technologies
 
 | **Tool/Technology** | **Purpose**                          |
-|----------------------|--------------------------------------|
-| Selenium WebDriver   | Browser automation                  |
-| Cucumber             | BDD framework for writing tests     |
-| JUnit                | Test execution                      |
-| Maven                | Build and dependency management     |
-| Jenkins              | Continuous Integration/Delivery     |
-| Apache Commons       | Utility functions                   |
+|----------------------|---------------------------------------|
+| Selenium WebDriver   | Browser automation                   |
+| Cucumber             | BDD framework for writing tests      |
+| JUnit                | Test execution                       |
+| Maven                | Build and dependency management      |
+| Jenkins              | Continuous Integration/Continuous Delivery |
+| Apache Commons       | Utility functions                    |
+| Java                 | Programming Language                 |
+| Gherkin              | Language for BDD scenarios           |
+| Page Object Model    | Design pattern for UI testing        |
 
 ---
 
 ## 📂 Project Structure
 
 src
-├── main
-│   ├── java/com/example
-│   │   ├── pages       # Page classes (e.g., HomePage, LoginPage)
-│   │   ├── utils       # Utility classes (e.g., ConfigReader, DriverFactory)
-│   ├── resources       # Configuration files (e.g., config.properties)
-├── test
-│   ├── java/com/example
-│   │   ├── features    # Cucumber feature files
-│   │   ├── steps       # Step definitions
-│   │   ├── runners     # Test runner classes
-│   ├── resources       # Test-specific resources
+  ├── main
+  │   ├── java/com/example
+  │   │   ├── pages       # Page classes (e.g., HomePage, LoginPage)
+  │   │   ├── utils       # Utility classes (e.g., ConfigReader, DriverFactory)
+  │   ├── resources       # Configuration files (e.g., config.properties)
+  ├── test
+  │   ├── java/com/example
+  │   │   ├── features    # Cucumber feature files
+  │   │   ├── steps       # Step definitions
+  │   │   ├── runners     # Test runner classes
+  │   ├── resources       # Test-specific resources
+
+---
+
+## 🧑‍💻 Author
+
+- **Full Name**: Moqaddas Rahim
+- **Role**: QA Automation Engineer
+- **Location**: Los Angeles, California, USA
+- **Email**: rahim.ms001@gmail.com
+- **LinkedIn**: [www.linkedin.com/in/moqaddas-qa-automation](www.linkedin.com/in/moqaddas-qa-automation)
+- **GitHub**: [https://github.com/moqaddasQA](https://github.com/moqaddasQA)
 
 
 
@@ -59,7 +79,7 @@ Prerequisites
 	3. Install ChromeDriver and/or GeckoDriver (Firefox).
 	4. Install Jenkins (optional, for CI/CD).
 
-    
+
 Clone the Repository
 git clone https://github.com/your-repo/bdd-automation-framework.git
 cd bdd-automation-framework
