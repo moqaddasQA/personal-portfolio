@@ -132,13 +132,6 @@ This framework includes a Jenkinsfile for CI/CD pipelines. Follow these steps to
 
 ----
 
-<<<<<<< HEAD
-📸 Screenshots
-Sample Test Report
-!Test Report Screenshot
-
-----
-
 🤝 Contributing
 Contributions are welcome! Feel free to:
 
@@ -151,24 +144,6 @@ Contributions are welcome! Feel free to:
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ----
-
-📧 Contact
-For questions or feedback, feel free to reach out:
-
-	* Name: Moqaddas Rahim
-	* Email: moqaddas@example.com
-	* LinkedIn: Your LinkedIn Profile
-
-----
-
-🎉 Happy Testing!
-=======
-<<<<<<< HEAD
-# bdd-automation-framework
->>>>>>> 3c4c6b8b205f14bfce6ba43cbb98ae179282e4dc
-=======
-# bdd-automation-framework
->>>>>>> f3c82b676a7af659c32a99e91d898e677a8556f1
 
 # SOAP API Testing Project
 
@@ -305,7 +280,7 @@ This project is a personal portfolio website designed to showcase a series of QA
 -   **Projects List:**
     -   **Project 1: Maven-Based BDD Automation Framework**:
         -   Description: A complete BDD framework targeting https://demo.opencart.com/.
-        -   Link: [https://github.com/your-username/bdd-automation-framework](https://github.com/your-username/bdd-automation-framework)
+        -   Link: [https://github.com/moqaddasQA/bdd-automation-framework](https://github.com/moqaddasQA/bdd-automation-framework)
     -   **Project 2: API Testing Suite**:
         -   Description: An API testing project using REST Assured, Postman, and TestNG.
         -   Link: [https://github.com/your-username/api-testing-suite](https://github.com/your-username/api-testing-suite)
@@ -327,8 +302,8 @@ This project is a personal portfolio website designed to showcase a series of QA
     -   **WebdriverIO BDD Project**:
         -   Description:  A complete BDD project using Javascript and WebdriverIO.
         -   Link: [https://github.com/your-username/webdriverio-bdd-project](https://github.com/your-username/webdriverio-bdd-project)
-
 ### Contact
+
 
 -   **Email:** [moqaddas@example.com](mailto:moqaddas@example.com)
 -   **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/yourprofile/)
@@ -360,13 +335,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 
 ## 📧 Contact
-
-For questions or feedback, feel free to reach out:
-
-	* Name: Moqaddas Rahim
-	* Email: moqaddas@example.com
-	* LinkedIn: Your LinkedIn Profile
-
 
 
 ## 🎉 Happy Testing!
