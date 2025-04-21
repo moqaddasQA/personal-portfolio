@@ -290,28 +290,20 @@ This project is a personal portfolio website designed to showcase a series of QA
 -   **Projects List:**
     -   **Project 1: Maven-Based BDD Automation Framework**:
         -   Description: A complete BDD framework targeting https://demo.opencart.com/.
-        -   Link: [https://github.com/moqaddasQA/bdd-automation-framework](https://github.com/moqaddasQA/bdd-automation-framework)
     -   **Project 2: API Testing Suite**:
         -   Description: An API testing project using REST Assured, Postman, and TestNG.
-        -   Link: [https://github.com/your-username/api-testing-suite](https://github.com/your-username/api-testing-suite)
     -   **Project 3: SOAP API Testing Project**:
         -   Description: A project using SoapUI to automate testing of a SOAP-based web service.
-        -   Link: [https://github.com/your-username/soap-api-testing](https://github.com/your-username/soap-api-testing)
     -   **Project 4: Data-Driven Testing with SQL and TestNG**:
         -   Description: A project illustrating data-driven testing by fetching data from a MySQL database.
-        -   Link: [https://github.com/your-username/data-driven-testing](https://github.com/your-username/data-driven-testing)
     -   **Project 5: Jenkins CI/CD Integration**:
         -   Description: A demo project demonstrating how to integrate automated tests with Jenkins.
-        -   Link: [https://github.com/your-username/jenkins-cicd-integration](https://github.com/your-username/jenkins-cicd-integration)
     -   **Project 6: Version Control and Agile Tools Demo**:
         -   Description: A project demonstrating Git best practices and a simulated Agile process.
-        -   Link: [https://github.com/your-username/version-control-agile-demo](https://github.com/your-username/version-control-agile-demo)
     -   **Project 7: Selenium IDE Demo Project**:
         -   Description: A project using Selenium IDE to record and run a quick test.
-        -   Link: [https://github.com/your-username/selenium-ide-demo](https://github.com/your-username/selenium-ide-demo)
     -   **WebdriverIO BDD Project**:
         -   Description:  A complete BDD project using Javascript and WebdriverIO.
-        -   Link: [https://github.com/your-username/webdriverio-bdd-project](https://github.com/your-username/webdriverio-bdd-project)
 ### Contact
 
 
