@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🛠️ Maven-Based BDD Automation Framework
 
 Welcome to the **BDD Automation Framework**! This project is a robust, scalable, and maintainable test automation framework designed to test the [OpenCart Demo Website](https://demo.opencart.com/). It leverages **Selenium WebDriver**, **Cucumber**, and **JUnit**, following best practices like the **Page Object Model (POM)** and **Behavior-Driven Development (BDD)**.
@@ -140,3 +141,6 @@ For questions or feedback, feel free to reach out:
 ----
 
 🎉 Happy Testing!
+=======
+# bdd-automation-framework
+>>>>>>> 3c4c6b8b205f14bfce6ba43cbb98ae179282e4dc
